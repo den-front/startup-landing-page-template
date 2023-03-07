@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./views/**/*.pug", "./assets/js/main.js"],
   theme: {
-    extend: {},
+    extend: {
+      inset: {
+        100: "100%",
+      },
+    },
   },
   plugins: [],
 };
