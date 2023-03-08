@@ -1,0 +1,165 @@
+doctype html
+html(
+  style="scroll-behavior: smooth;" 
+  lang="en"
+  )
+  head
+    meta(charset="utf-8")
+    meta(
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" 
+      name="viewport"
+      )
+    link(
+      type="image/png" 
+      href="../assets/img/favicon.png" 
+      rel="shortcut icon"
+      )
+    title Startup - Landing Page Template with TailwindCSS
+    link(
+      href="../assets/css/LineIcons.2.0.css" 
+      type="text/css" 
+      rel="stylesheet"
+      )
+    link(
+      href="../assets/css/animate.css" 
+      type="text/css" 
+      rel="stylesheet"
+      )
+    link(
+      href="../assets/css/tiny-slider.css" 
+      type="text/css" 
+      rel="stylesheet"
+      )
+    link(
+      href="../assets/css/style.css" 
+      type="text/css" 
+      rel="stylesheet"
+      )
+  body
+    header#header-wrap.relative
+      .navigation.fixed.top-0.left-0.w-full.z-30.duration-300
+        .container
+          nav.navbar.py-5.navbar-expand-lg.flex.justify-between.items-center.relative.duration-300(class="lg:py-2")
+            a.navbar-brand(href="#")
+              img(
+                alt="Logo" 
+                src="../assets/img/logo.svg"
+                )
+            button.navbar-toggler.block(
+              aria-label="Toggle navigation" 
+              aria-expanded="false" 
+              aria-controls="navbarSupportedContent" 
+              data-target="#navbarSupportedContent" 
+              data-toggle="collapse" 
+              type="button" 
+              class="focus:outline-none lg:hidden"
+              )
+              span.toggler-icon
+              span.toggler-icon
+              span.toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse.hidden.duration-300.shadow.absolute.top-100.left-0.mt-full.bg-white.z-20.px-5.py-3.w-full(class="lg:block lg:static lg:bg-transparent lg:shadow-none lg:visible")
+              ul.navbar-nav.mr-auto.justify-center.items-center(class="lg:flex")
+                li.nav-item
+                  a.page-scroll.active(href="#hero-area") Home
+                li.nav-item
+                  a.page-scroll(href="#services") Services
+                li.nav-item
+                  a.page-scroll(href="#feature") feature
+                li.nav-item
+                  a.page-scroll(href="#team") Team
+                li.nav-item
+                  a.page-scroll(href="#testimonial") Testimonial
+                li.nav-item
+                  a.page-scroll(href="#pricing") Pricing
+                li.nav-item
+                  a.page-scroll(href="#contact") Contact
+            .header-btn.hidden(class="sm:block sm:absolute sm:right-0 sm:mr-16 lg:static lg:mr-0")
+              a.block.text-blue-600.border.border-blue-600.px-10.py-3.rounded-full.duration-300(
+                href="#feature" 
+                class="hover:bg-blue-600 hover:text-white"
+                ) FAQ
+
+    block content
+
+    footer#footer.bg-gray-800.py-16
+      .container
+        .flex.flex-wrap
+          .w-full.wow.fadeInUp(
+            data-wow-delay="0.2s" 
+            class="sm:w-1/2 md:w-1/2 lg:w-1/4"
+            )
+            .mx-3.mb-8
+              .footer-logo.mb-3
+                img(
+                  alt="" 
+                  src="../assets/img/logo.svg"
+                  )
+              p.text-gray-300
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                |   Quisquam excepturi quasi, ipsam voluptatem.
+          .w-full.wow.fadeInUp(
+            data-wow-delay="0.4s" 
+            class="sm:w-1/2 md:w-1/2 lg:w-1/4"
+            )
+            .mx-3.mb-8
+              h3.font-bold.text-xl.text-white.mb-5 Company
+              ul
+                li
+                  a.footer-links(href="#") Press Releases
+                li
+                  a.footer-links(href="#") Mission
+                li
+                  a.footer-links(href="#") Strategy
+          .w-full.wow.fadeInUp(
+            data-wow-delay="0.6s" 
+            class="sm:w-1/2 md:w-1/2 lg:w-1/4"
+            )
+            .mx-3.mb-8
+              h3.font-bold.text-xl.text-white.mb-5 About
+              ul
+                li
+                  a.footer-links(href="#") Career
+                li
+                  a.footer-links(href="#") Team
+                li
+                  a.footer-links(href="#") Clients
+          .w-full.wow.fadeInUp(
+            data-wow-delay="0.8s" 
+            class="sm:w-1/2 md:w-1/2 lg:w-1/4"
+            )
+            .mx-3.mb-8
+              h3.font-bold.text-xl.text-white.mb-5 Find us on
+              ul.social-icons.flex.justify-start
+                li.mx-2
+                  a.footer-icon(
+                    class="hover:bg-indigo-500" 
+                    href="#"
+                    )
+                    i.lni.lni-facebook-original(aria-hidden="true")
+                li.mx-2
+                  a.footer-icon(
+                    class="hover:bg-blue-400" 
+                    href="#"
+                    )
+                    i.lni.lni-twitter-original(aria-hidden="true")
+                li.mx-2
+                  a.footer-icon(
+                    class="hover:bg-red-500" 
+                    href="#"
+                    )
+                    i.lni.lni-instagram-original(aria-hidden="true")
+                li.mx-2
+                  a.footer-icon(
+                    class="hover:bg-indigo-600" 
+                    href="#"
+                    )
+                    i.lni.lni-linkedin-original(aria-hidden="true")
+    a.back-to-top.w-10.h-10.fixed.bottom-0.right-0.mb-5.mr-5.flex.items-center.justify-center.rounded-full.bg-blue-600.text-white.text-lg.z-20.duration-300(
+      class="hover:bg-blue-400" 
+      href="#"
+      )
+      i.lni.lni-arrow-up
+
+    script(src="../assets/js/wow.js")
+    script(src="../assets/js/tiny-slider.js")
+    script(src="../assets/js/main.js")
