@@ -4,7 +4,7 @@ This is a responsive landing page template designed for startups. The template i
 
 <img src="preview.png" style="width: 100%" />
 
-<h2>Features<h2>
+<h2>Features</h2>
 
 - Hero section
 - Services section
