@@ -39,7 +39,7 @@ html(
     header#header-wrap.relative
       .navigation.fixed.top-0.left-0.w-full.z-30.duration-300
         .container
-          nav.navbar.py-2.navbar-expand-lg.flex.justify-between.items-center.relative.duration-300
+          nav.navbar.py-5.navbar-expand-lg.flex.justify-between.items-center.relative.duration-300(class="lg:py-2")
             a.navbar-brand(href="#")
               img(
                 alt="Logo" 
@@ -57,7 +57,7 @@ html(
               span.toggler-icon
               span.toggler-icon
               span.toggler-icon
-            #navbarSupportedContent.collapse.navbar-collapse.hidden.duration-300.shadow.absolute.top-100.left-0.mt-full.bg-white.z-20.px-5.py-3.w-full(class="lg:block lg:static lg:bg-transparent lg:shadow-none")
+            #navbarSupportedContent.collapse.navbar-collapse.hidden.duration-300.shadow.absolute.top-100.left-0.mt-full.bg-white.z-20.px-5.py-3.w-full(class="lg:block lg:static lg:bg-transparent lg:shadow-none lg:visible")
               ul.navbar-nav.mr-auto.justify-center.items-center(class="lg:flex")
                 li.nav-item
                   a.page-scroll.active(href="#hero-area") Home
@@ -74,7 +74,7 @@ html(
                 li.nav-item
                   a.page-scroll(href="#contact") Contact
             .header-btn.hidden(class="sm:block sm:absolute sm:right-0 sm:mr-16 lg:static lg:mr-0")
-              a.text-blue-600.border.border-blue-600.px-10.py-3.rounded-full.duration-300(
+              a.block.text-blue-600.border.border-blue-600.px-10.py-3.rounded-full.duration-300(
                 href="#feature" 
                 class="hover:bg-blue-600 hover:text-white"
                 ) FAQ
