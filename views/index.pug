@@ -78,24 +78,7 @@ html(
                 href="#feature" 
                 class="hover:bg-blue-600 hover:text-white"
                 ) FAQ
-    section#hero-area.bg-blue-100.pt-48.pb-10
-      .container
-        .flex.justify-between
-          .w-full.text-center
-            h2.text-4xl.font-bold.leading-snug.text-gray-700.mb-10.wow.fadeInUp(data-wow-delay="1s")
-              | Startup and SaaS Landing Page
-              br.hidden(class="lg:block")
-              | Built with TailwindCSS
-            .text-center.mb-10.wow.fadeInUp(data-wow-delay="1.2s")
-              a.btn(
-                rel="nofollow" 
-                href="#"
-                ) Download Now
-            .text-center.wow.fadeInUp(data-wow-delay="1.6s")
-              img.img-fluid.mx-auto(
-                alt="" 
-                src="../assets/img/hero.svg"
-                )
+    include ./sections/hero.pug
     section#services.py-24
       .container
         .text-center
